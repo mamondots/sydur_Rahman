@@ -1,0 +1,13 @@
+.title{
+    position: relative;
+}
+.title::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height:3px;
+    border-radius:50px;
+    right:-18vh;
+    top:50%;
+    background-image:linear-gradient(#F54959,#E32E6E);
+}

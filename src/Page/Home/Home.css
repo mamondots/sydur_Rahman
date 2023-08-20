@@ -1,0 +1,25 @@
+.content{
+    display:none;
+    transition:0.5s;
+    transform:translateY(20px);
+}
+.active-content{
+    display:block;
+    transform:translateY(0px);
+}
+.tabs{
+    background-color:#F3F6F6;
+}
+.tabs:hover{
+    background-image:linear-gradient(#F54959,#E32E6E);
+}
+.tabs:hover p{
+    color:#fff;
+}
+.active-tabs.tabs{
+    background-image:linear-gradient(#F54959,#E32E6E);
+    
+}
+.active-tabs p{
+    color:#fff;
+}
